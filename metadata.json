@@ -1,0 +1,6 @@
+{
+  "name": "FitBuddy - AI 7-Day Fitness Plan Generator",
+  "description": "Generate personalized 7-day workout plans, nutrition tips, feedback-driven revisions, and downloadable PDFs using Google Gemini AI.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

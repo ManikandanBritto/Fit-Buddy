@@ -1,0 +1,502 @@
+{
+  "users": {
+    "user_test_01": {
+      "id": "user_test_01",
+      "name": "Alex Test",
+      "age": 28,
+      "weight": 75,
+      "goal": "Weight Loss",
+      "intensity": "Medium",
+      "originalPlan": {
+        "planTitle": "Personalized 7-Day Weight Loss Protocol",
+        "planSummary": "A customized 7-day fitness regimen built specifically for your goal of Weight Loss with a Medium intensity level. Incorporates progressive overload, structured metabolic conditioning, and essential recovery windows.",
+        "targetGoal": "Weight Loss",
+        "intensity": "Medium",
+        "days": [
+          {
+            "day": 1,
+            "dayName": "Day 1 - Monday",
+            "title": "Full Body Awakening & Cardio Core",
+            "focus": "Foundational strength and metabolic activation",
+            "isRestDay": false,
+            "warmup": "5-10 mins: Arm swings, torso twists, 2 min jump rope or high knees",
+            "exercises": [
+              {
+                "name": "Standard Push-ups / Incline Push-ups",
+                "sets": "3 sets",
+                "reps": "10-15 reps",
+                "notes": "Maintain strict neutral spine and full lockout"
+              },
+              {
+                "name": "Dumbbell or Bodyweight Goblet Squats",
+                "sets": "3 sets",
+                "reps": "12-15 reps",
+                "notes": "Drive knees outward and press through heels"
+              },
+              {
+                "name": "Plank Shoulder Taps",
+                "sets": "3 sets",
+                "reps": "20 taps (10/side)",
+                "notes": "Resist hip sway and squeeze core tight"
+              },
+              {
+                "name": "Walking Lunges with Torso Twist",
+                "sets": "3 sets",
+                "reps": "12 steps each leg",
+                "notes": "Maintain 90-degree knee bend"
+              }
+            ],
+            "cooldown": "5-8 mins: Cobra stretch, child’s pose, doorway chest stretch",
+            "estimatedDurationMinutes": 40
+          },
+          {
+            "day": 2,
+            "dayName": "Day 2 - Tuesday",
+            "title": "Lower Body Power & Posterior Chain",
+            "focus": "Hamstrings, glutes, quadriceps and balance",
+            "isRestDay": false,
+            "warmup": "5-8 mins: Leg swings (front/back & lateral), hip openers, bodyweight squats",
+            "exercises": [
+              {
+                "name": "Romanian Deadlifts (Dumbbell/Kettlebell/Band)",
+                "sets": "3 sets",
+                "reps": "10-12 reps",
+                "notes": "Hinge deeply at hips, keep back flat"
+              },
+              {
+                "name": "Bulgarian Split Squats or Step-ups",
+                "sets": "3 sets",
+                "reps": "8-10 reps/leg",
+                "notes": "Controlled tempo, pause at bottom"
+              },
+              {
+                "name": "Glute Bridges / Hip Thrusts",
+                "sets": "3 sets",
+                "reps": "15-20 reps",
+                "notes": "Squeeze glutes at top for 2 full seconds"
+              },
+              {
+                "name": "Standing Calf Raises",
+                "sets": "3 sets",
+                "reps": "20 reps",
+                "notes": "Full extension onto balls of feet"
+              }
+            ],
+            "cooldown": "6 mins: Seated hamstring stretch, pigeon pose, quadriceps stretch",
+            "estimatedDurationMinutes": 42
+          },
+          {
+            "day": 3,
+            "dayName": "Day 3 - Wednesday",
+            "title": "Active Recovery & Mobility Flow",
+            "focus": "Joint mobility, core de-loading and tissue regeneration",
+            "isRestDay": true,
+            "warmup": "5 mins: Cat-cow flow, thoracic rotations, deep breathing",
+            "exercises": [
+              {
+                "name": "Dynamic Vinyasa Flow or Gentle Yoga",
+                "sets": "1 continuous",
+                "reps": "20 mins",
+                "notes": "Focus on diaphragmatic breathing"
+              },
+              {
+                "name": "Brisk Outdoor Walking or Light Cycling",
+                "sets": "1 session",
+                "reps": "20-30 mins",
+                "notes": "Zone 2 heart rate for aerobic base"
+              },
+              {
+                "name": "Foam Rolling / Self-Myofascial Release",
+                "sets": "Full body",
+                "reps": "10 mins",
+                "notes": "Target IT band, upper back and calves"
+              }
+            ],
+            "cooldown": "5 mins: Butterfly stretch and supine spinal twists",
+            "estimatedDurationMinutes": 35
+          },
+          {
+            "day": 4,
+            "dayName": "Day 4 - Thursday",
+            "title": "Metabolic HIIT & Core Conditioning",
+            "focus": "Lats, rhomboids, biceps and cardiovascular endurance",
+            "isRestDay": false,
+            "warmup": "6 mins: Arm circles, band pull-aparts, light shadow boxing",
+            "exercises": [
+              {
+                "name": "Dumbbell Rows / Resistance Band Rows",
+                "sets": "3 sets",
+                "reps": "10-12 reps",
+                "notes": "Pull elbow toward hip pocket without shrugging"
+              },
+              {
+                "name": "Banded Face Pulls or Rear Delt Flyes",
+                "sets": "3 sets",
+                "reps": "15 reps",
+                "notes": "Promotes healthy rotator cuff posture"
+              },
+              {
+                "name": "Bicycle Crunches",
+                "sets": "3 sets",
+                "reps": "20 total reps",
+                "notes": "Slow and controlled rotation"
+              },
+              {
+                "name": "Mountain Climbers or Burpees",
+                "sets": "3 sets",
+                "reps": "40 seconds work / 20s rest",
+                "notes": "Keep steady pacing throughout"
+              }
+            ],
+            "cooldown": "6 mins: Lat stretch against wall, cross-body shoulder stretch",
+            "estimatedDurationMinutes": 40
+          },
+          {
+            "day": 5,
+            "dayName": "Day 5 - Friday",
+            "title": "Full Body Functional Complex & Stamina",
+            "focus": "Compound functional movement and total body strength",
+            "isRestDay": false,
+            "warmup": "7 mins: Jumping jacks, inchworms with push-up, torso circles",
+            "exercises": [
+              {
+                "name": "Thrusters (Squat to Overhead Press)",
+                "sets": "3 sets",
+                "reps": "10-12 reps",
+                "notes": "Use lower body drive to power weight overhead"
+              },
+              {
+                "name": "Kettlebell / Dumbbell Swings",
+                "sets": "3 sets",
+                "reps": "15 reps",
+                "notes": "Explosive hip hinge, do not squat the weight"
+              },
+              {
+                "name": "Bear Crawl Holds or Bird Dogs",
+                "sets": "3 sets",
+                "reps": "45 seconds hold / 12 bird dogs",
+                "notes": "Keep back flat like a tabletop"
+              },
+              {
+                "name": "Side Plank Holds",
+                "sets": "3 sets",
+                "reps": "30 seconds each side",
+                "notes": "Stack feet or drop bottom knee if needed"
+              }
+            ],
+            "cooldown": "8 mins: Child’s pose, world’s greatest stretch, deep hip flexor stretch",
+            "estimatedDurationMinutes": 45
+          },
+          {
+            "day": 6,
+            "dayName": "Day 6 - Saturday",
+            "title": "Cardio Engine, Core & Agility Drill",
+            "focus": "Aerobic threshold, speed-agility, and mental resilience",
+            "isRestDay": false,
+            "warmup": "6 mins: High knees, butt kicks, lateral shuffles",
+            "exercises": [
+              {
+                "name": "Interval Jogging / Sprint Intervals or Rower",
+                "sets": "6-8 rounds",
+                "reps": "1 min fast / 1 min easy",
+                "notes": "Adjust pace according to perceived exertion"
+              },
+              {
+                "name": "Hanging Leg Raises / Lying Leg Lifts",
+                "sets": "3 sets",
+                "reps": "12-15 reps",
+                "notes": "Engage lower abdominals without swinging"
+              },
+              {
+                "name": "Russian Twists",
+                "sets": "3 sets",
+                "reps": "24 total touches",
+                "notes": "Chest proud, feet slightly elevated"
+              }
+            ],
+            "cooldown": "6 mins: Standing quad stretch, calves wall stretch, slow walking",
+            "estimatedDurationMinutes": 35
+          },
+          {
+            "day": 7,
+            "dayName": "Day 7 - Sunday",
+            "title": "Deep Rest, Central Nervous System Recovery & Reset",
+            "focus": "Cellular recovery, glycogen replenishment, and mental preparation",
+            "isRestDay": true,
+            "warmup": "None needed - complete rest",
+            "exercises": [
+              {
+                "name": "Gentle Walk in Nature / Leisure Stroll",
+                "sets": "1 walk",
+                "reps": "30-40 mins",
+                "notes": "Purely leisurely; avoid intense elevation"
+              },
+              {
+                "name": "Full Body Passive Stretching & Breathwork",
+                "sets": "1 routine",
+                "reps": "15 mins",
+                "notes": "4 seconds in, 7 seconds hold, 8 seconds out"
+              }
+            ],
+            "cooldown": "Hydrate well with electrolytes, take a warm epsom salt bath if available",
+            "estimatedDurationMinutes": 20
+          }
+        ],
+        "nutritionTip": "Maintain a modest caloric deficit of 300-500 kcal daily. Prioritize lean protein with fibrous green vegetables at every meal, drink at least 2.5 to 3 liters of water, and eliminate liquid sugars.",
+        "recoveryTip": "Prioritize 7.5 to 9 hours of uninterrupted sleep every night. Muscle repair, hormone balance, and nervous system recovery occur primarily during slow-wave deep sleep.",
+        "coachingNotes": "Always listen to your body. Consistency over 4 to 8 weeks compounds into transformative results. Progress weights or reps gradually.",
+        "generatedAt": "2026-09-27T08:55:17.951Z",
+        "revision": 1
+      },
+      "updatedPlan": {
+        "planTitle": "Personalized 7-Day Weight Loss Protocol (Refined: Add 20 minutes of restorative ...)",
+        "planSummary": "Updated with user feedback: \"Add 20 minutes of restorative yoga on Wednesday and reduce high impact jumps\". Routine adjusted for optimal progression.",
+        "targetGoal": "Weight Loss",
+        "intensity": "Medium",
+        "days": [
+          {
+            "day": 1,
+            "dayName": "Day 1 - Monday",
+            "title": "Full Body Awakening & Cardio Core",
+            "focus": "Foundational strength and metabolic activation",
+            "isRestDay": false,
+            "warmup": "5-10 mins: Arm swings, torso twists, 2 min jump rope or high knees",
+            "exercises": [
+              {
+                "name": "Standard Push-ups / Incline Push-ups",
+                "sets": "3 sets",
+                "reps": "10-15 reps",
+                "notes": "Maintain strict neutral spine and full lockout"
+              },
+              {
+                "name": "Dumbbell or Bodyweight Goblet Squats",
+                "sets": "3 sets",
+                "reps": "12-15 reps",
+                "notes": "Drive knees outward and press through heels"
+              },
+              {
+                "name": "Plank Shoulder Taps",
+                "sets": "3 sets",
+                "reps": "20 taps (10/side)",
+                "notes": "Resist hip sway and squeeze core tight"
+              },
+              {
+                "name": "Walking Lunges with Torso Twist",
+                "sets": "3 sets",
+                "reps": "12 steps each leg",
+                "notes": "Maintain 90-degree knee bend"
+              }
+            ],
+            "cooldown": "5-8 mins: Cobra stretch, child’s pose, doorway chest stretch",
+            "estimatedDurationMinutes": 40
+          },
+          {
+            "day": 2,
+            "dayName": "Day 2 - Tuesday",
+            "title": "Lower Body Power & Posterior Chain",
+            "focus": "Hamstrings, glutes, quadriceps and balance",
+            "isRestDay": false,
+            "warmup": "5-8 mins: Leg swings (front/back & lateral), hip openers, bodyweight squats",
+            "exercises": [
+              {
+                "name": "Romanian Deadlifts (Dumbbell/Kettlebell/Band)",
+                "sets": "3 sets",
+                "reps": "10-12 reps",
+                "notes": "Hinge deeply at hips, keep back flat"
+              },
+              {
+                "name": "Bulgarian Split Squats or Step-ups",
+                "sets": "3 sets",
+                "reps": "8-10 reps/leg",
+                "notes": "Controlled tempo, pause at bottom"
+              },
+              {
+                "name": "Glute Bridges / Hip Thrusts",
+                "sets": "3 sets",
+                "reps": "15-20 reps",
+                "notes": "Squeeze glutes at top for 2 full seconds"
+              },
+              {
+                "name": "Standing Calf Raises",
+                "sets": "3 sets",
+                "reps": "20 reps",
+                "notes": "Full extension onto balls of feet"
+              }
+            ],
+            "cooldown": "6 mins: Seated hamstring stretch, pigeon pose, quadriceps stretch",
+            "estimatedDurationMinutes": 42
+          },
+          {
+            "day": 3,
+            "dayName": "Day 3 - Wednesday",
+            "title": "Active Recovery & Mobility Flow",
+            "focus": "Joint mobility, core de-loading and tissue regeneration",
+            "isRestDay": true,
+            "warmup": "5 mins: Cat-cow flow, thoracic rotations, deep breathing",
+            "exercises": [
+              {
+                "name": "Dynamic Vinyasa Flow or Gentle Yoga",
+                "sets": "1 continuous",
+                "reps": "20 mins",
+                "notes": "Focus on diaphragmatic breathing"
+              },
+              {
+                "name": "Brisk Outdoor Walking or Light Cycling",
+                "sets": "1 session",
+                "reps": "20-30 mins",
+                "notes": "Zone 2 heart rate for aerobic base"
+              },
+              {
+                "name": "Foam Rolling / Self-Myofascial Release",
+                "sets": "Full body",
+                "reps": "10 mins",
+                "notes": "Target IT band, upper back and calves"
+              }
+            ],
+            "cooldown": "5 mins: Butterfly stretch and supine spinal twists",
+            "estimatedDurationMinutes": 35
+          },
+          {
+            "day": 4,
+            "dayName": "Day 4 - Thursday",
+            "title": "Metabolic HIIT & Core Conditioning",
+            "focus": "Lats, rhomboids, biceps and cardiovascular endurance",
+            "isRestDay": false,
+            "warmup": "6 mins: Arm circles, band pull-aparts, light shadow boxing",
+            "exercises": [
+              {
+                "name": "Dumbbell Rows / Resistance Band Rows",
+                "sets": "3 sets",
+                "reps": "10-12 reps",
+                "notes": "Pull elbow toward hip pocket without shrugging"
+              },
+              {
+                "name": "Banded Face Pulls or Rear Delt Flyes",
+                "sets": "3 sets",
+                "reps": "15 reps",
+                "notes": "Promotes healthy rotator cuff posture"
+              },
+              {
+                "name": "Bicycle Crunches",
+                "sets": "3 sets",
+                "reps": "20 total reps",
+                "notes": "Slow and controlled rotation"
+              },
+              {
+                "name": "Mountain Climbers or Burpees",
+                "sets": "3 sets",
+                "reps": "40 seconds work / 20s rest",
+                "notes": "Keep steady pacing throughout"
+              }
+            ],
+            "cooldown": "6 mins: Lat stretch against wall, cross-body shoulder stretch",
+            "estimatedDurationMinutes": 40
+          },
+          {
+            "day": 5,
+            "dayName": "Day 5 - Friday",
+            "title": "Full Body Functional Complex & Stamina",
+            "focus": "Compound functional movement and total body strength",
+            "isRestDay": false,
+            "warmup": "7 mins: Jumping jacks, inchworms with push-up, torso circles",
+            "exercises": [
+              {
+                "name": "Thrusters (Squat to Overhead Press)",
+                "sets": "3 sets",
+                "reps": "10-12 reps",
+                "notes": "Use lower body drive to power weight overhead"
+              },
+              {
+                "name": "Kettlebell / Dumbbell Swings",
+                "sets": "3 sets",
+                "reps": "15 reps",
+                "notes": "Explosive hip hinge, do not squat the weight"
+              },
+              {
+                "name": "Bear Crawl Holds or Bird Dogs",
+                "sets": "3 sets",
+                "reps": "45 seconds hold / 12 bird dogs",
+                "notes": "Keep back flat like a tabletop"
+              },
+              {
+                "name": "Side Plank Holds",
+                "sets": "3 sets",
+                "reps": "30 seconds each side",
+                "notes": "Stack feet or drop bottom knee if needed"
+              }
+            ],
+            "cooldown": "8 mins: Child’s pose, world’s greatest stretch, deep hip flexor stretch",
+            "estimatedDurationMinutes": 45
+          },
+          {
+            "day": 6,
+            "dayName": "Day 6 - Saturday",
+            "title": "Cardio Engine, Core & Agility Drill",
+            "focus": "Aerobic threshold, speed-agility, and mental resilience",
+            "isRestDay": false,
+            "warmup": "6 mins: High knees, butt kicks, lateral shuffles",
+            "exercises": [
+              {
+                "name": "Interval Jogging / Sprint Intervals or Rower",
+                "sets": "6-8 rounds",
+                "reps": "1 min fast / 1 min easy",
+                "notes": "Adjust pace according to perceived exertion"
+              },
+              {
+                "name": "Hanging Leg Raises / Lying Leg Lifts",
+                "sets": "3 sets",
+                "reps": "12-15 reps",
+                "notes": "Engage lower abdominals without swinging"
+              },
+              {
+                "name": "Russian Twists",
+                "sets": "3 sets",
+                "reps": "24 total touches",
+                "notes": "Chest proud, feet slightly elevated"
+              }
+            ],
+            "cooldown": "6 mins: Standing quad stretch, calves wall stretch, slow walking",
+            "estimatedDurationMinutes": 35
+          },
+          {
+            "day": 7,
+            "dayName": "Day 7 - Sunday",
+            "title": "Deep Rest, Central Nervous System Recovery & Reset",
+            "focus": "Cellular recovery, glycogen replenishment, and mental preparation",
+            "isRestDay": true,
+            "warmup": "None needed - complete rest",
+            "exercises": [
+              {
+                "name": "Gentle Walk in Nature / Leisure Stroll",
+                "sets": "1 walk",
+                "reps": "30-40 mins",
+                "notes": "Purely leisurely; avoid intense elevation"
+              },
+              {
+                "name": "Full Body Passive Stretching & Breathwork",
+                "sets": "1 routine",
+                "reps": "15 mins",
+                "notes": "4 seconds in, 7 seconds hold, 8 seconds out"
+              }
+            ],
+            "cooldown": "Hydrate well with electrolytes, take a warm epsom salt bath if available",
+            "estimatedDurationMinutes": 20
+          }
+        ],
+        "nutritionTip": "Maintain a modest caloric deficit of 300-500 kcal daily. Prioritize lean protein with fibrous green vegetables at every meal, drink at least 2.5 to 3 liters of water, and eliminate liquid sugars.",
+        "recoveryTip": "Prioritize 7.5 to 9 hours of uninterrupted sleep every night. Muscle repair, hormone balance, and nervous system recovery occur primarily during slow-wave deep sleep.",
+        "coachingNotes": "Coach note: Modified to incorporate \"Add 20 minutes of restorative yoga on Wednesday and reduce high impact jumps\". Keep tracking how your body feels!",
+        "generatedAt": "2026-09-27T08:55:36.686Z",
+        "revision": 2
+      },
+      "feedbackList": [
+        {
+          "feedback": "Add 20 minutes of restorative yoga on Wednesday and reduce high impact jumps",
+          "date": "2026-09-27T08:55:36.686Z"
+        }
+      ],
+      "createdAt": "2026-09-27T08:55:17.952Z",
+      "updatedAt": "2026-09-27T08:55:36.686Z"
+    }
+  }
+}

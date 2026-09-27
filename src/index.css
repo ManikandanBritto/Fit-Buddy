@@ -1,0 +1,111 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #080d0b;
+}
+::-webkit-scrollbar-thumb {
+  background: #064e3b;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #059669;
+}
+
+/* Print Stylesheet for clean 7-Day Plan printing & PDF saving */
+@media print {
+  @page {
+    margin: 12mm 12mm 12mm 12mm;
+    size: auto;
+  }
+
+  header,
+  footer,
+  nav,
+  button,
+  .no-print {
+    display: none !important;
+  }
+
+  body {
+    background-color: #ffffff !important;
+    background-image: none !important;
+    color: #0f172a !important;
+    font-size: 10pt !important;
+  }
+
+  #root,
+  main {
+    background-color: #ffffff !important;
+    color: #0f172a !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  * {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+    text-shadow: none !important;
+  }
+
+  .border,
+  .border-emerald-900,
+  .border-emerald-950,
+  .border-emerald-900\/50,
+  .border-emerald-900\/60,
+  .border-emerald-950\/60,
+  .border-emerald-950\/70,
+  .border-emerald-950\/80 {
+    border-color: #cbd5e1 !important;
+  }
+
+  .bg-\[\#0c1612\],
+  .bg-\[\#07100c\],
+  .bg-\[\#080d0b\],
+  .bg-\[\#0a1510\],
+  .bg-\[\#09120e\],
+  .bg-\[\#07120c\],
+  .bg-\[\#060c09\],
+  .bg-\[\#061118\]\/60 {
+    background-color: #ffffff !important;
+    color: #0f172a !important;
+    box-shadow: none !important;
+  }
+
+  .text-white {
+    color: #0f172a !important;
+  }
+
+  .text-gray-100,
+  .text-gray-200,
+  .text-gray-300,
+  .text-gray-400 {
+    color: #334155 !important;
+  }
+
+  .text-emerald-400,
+  .text-emerald-300,
+  .text-emerald-500 {
+    color: #047857 !important;
+  }
+
+  .print-avoid-break {
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
+  }
+
+  .print-page-break {
+    page-break-before: always !important;
+    break-before: page !important;
+  }
+}
