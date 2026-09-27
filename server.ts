@@ -35,6 +35,46 @@ const ai = new GoogleGenAI({
   },
 });
 
+// Helper function to call Gemini with multi-model fallback and retry for high-demand spikes
+async function generateGeminiContentWithFallback(prompt: string, config: any = {}) {
+  // Ordered models to try. If one is experiencing high demand (503/429), try the next available model
+  const candidateModels = ['gemini-3.1-flash-lite', 'gemini-3.8-flash'];
+  let lastError: any = null;
+
+  for (const model of candidateModels) {
+    for (let attempt = 1; attempt <= 2; attempt++) {
+      try {
+        console.log(`Calling Gemini with model: ${model} (attempt ${attempt})...`);
+        const response = await ai.models.generateContent({
+          model,
+          contents: prompt,
+          config,
+        });
+
+        if (response && response.text) {
+          console.log(`Gemini response received successfully via ${model}`);
+          return { text: response.text, modelUsed: model };
+        }
+      } catch (err: any) {
+        lastError = err;
+        const errMsg = err?.message || String(err);
+        console.warn(`Attempt ${attempt} on model ${model} failed:`, errMsg);
+
+        // If 503 (high demand) or 429 (rate limit), wait briefly before retrying or switching models
+        if (errMsg.includes('503') || errMsg.includes('429') || errMsg.includes('high demand') || errMsg.includes('UNAVAILABLE')) {
+          if (attempt === 1) {
+            await new Promise((resolve) => setTimeout(resolve, 800));
+            continue;
+          }
+        }
+        break; // Switch to next candidate model
+      }
+    }
+  }
+
+  throw lastError || new Error('All Gemini candidate models were unavailable.');
+}
+
 // Helper functions for JSON database
 interface Exercise {
   name: string;
@@ -322,16 +362,12 @@ Important criteria:
 5. Keep the recovery tip aligned with their age (${numAge}) and intensity (${userIntensity}).`;
 
       try {
-        const response = await ai.models.generateContent({
-          model: 'gemini-3.8-flash',
-          contents: prompt,
-          config: {
-            responseMimeType: 'application/json',
-            temperature: 0.7,
-          },
+        const { text, modelUsed } = await generateGeminiContentWithFallback(prompt, {
+          responseMimeType: 'application/json',
+          temperature: 0.7,
         });
 
-        const rawText = response.text || '';
+        const rawText = text || '';
         const cleanedText = rawText.replace(/^```json\s*/i, '').replace(/```\s*$/i, '').trim();
         const parsed = JSON.parse(cleanedText);
 
@@ -348,7 +384,7 @@ Important criteria:
           revision: 1,
         };
       } catch (geminiError: any) {
-        console.warn('Gemini API call failed, falling back to default structured template:', geminiError?.message || geminiError);
+        console.warn('Gemini API call failed after retries, falling back to default structured template:', geminiError?.message || geminiError);
         generatedPlan = createFallbackPlan({
           name: username,
           goal: userGoal,
@@ -469,16 +505,12 @@ Respond STRICTLY with valid JSON following this exact structure (no markdown fen
 }`;
 
       try {
-        const response = await ai.models.generateContent({
-          model: 'gemini-3.8-flash',
-          contents: prompt,
-          config: {
-            responseMimeType: 'application/json',
-            temperature: 0.7,
-          },
+        const { text } = await generateGeminiContentWithFallback(prompt, {
+          responseMimeType: 'application/json',
+          temperature: 0.7,
         });
 
-        const rawText = response.text || '';
+        const rawText = text || '';
         const cleanedText = rawText.replace(/^```json\s*/i, '').replace(/```\s*$/i, '').trim();
         const parsed = JSON.parse(cleanedText);
 
@@ -495,7 +527,7 @@ Respond STRICTLY with valid JSON following this exact structure (no markdown fen
           revision: currentRevision,
         };
       } catch (geminiError: any) {
-        console.warn('Gemini feedback revision failed, applying fallback adjustment:', geminiError?.message);
+        console.warn('Gemini feedback revision failed after retries, applying fallback adjustment:', geminiError?.message);
         // Fallback modification
         updatedPlan = {
           ...currentPlan,
@@ -591,11 +623,19 @@ app.get('/api/nutrition-tip', async (req, res) => {
     let tip = '';
 
     if (process.env.GEMINI_API_KEY && process.env.GEMINI_API_KEY !== 'MY_GEMINI_API_KEY') {
-      const response = await ai.models.generateContent({
-        model: 'gemini-3.8-flash',
-        contents: `Provide one concise, clear, and practical nutrition or recovery tip for someone focused on "${goal}". Keep it to 2-3 sentences, scientific yet approachable.`,
-      });
-      tip = response.text || '';
+      try {
+        const { text } = await generateGeminiContentWithFallback(
+          `Provide one concise, clear, and practical nutrition or recovery tip for someone focused on "${goal}". Keep it to 2-3 sentences, scientific yet approachable.`
+        );
+        tip = text || '';
+      } catch (geminiError) {
+        console.warn('Gemini nutrition tip fallback triggered:', geminiError);
+        tip = goal.toLowerCase().includes('muscle')
+          ? 'Target 1.6-2.2g of protein per kg of body weight spread across 4 meals. Have a fast-digesting protein shake within 45 mins post-workout.'
+          : goal.toLowerCase().includes('loss')
+          ? 'Drink 500ml water 20 minutes before meals and ensure half your plate consists of non-starchy vegetables to manage satiety effortlessly.'
+          : 'Prioritize a spectrum of colorful fruits and vegetables daily, alongside adequate hydration (30-35ml per kg body weight).';
+      }
     } else {
       tip = goal.toLowerCase().includes('muscle')
         ? 'Eat 1.6-2.2g of protein per kg of body weight spread across 4 meals. Have a fast-digesting protein shake within 45 mins post-workout.'

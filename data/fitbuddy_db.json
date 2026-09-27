@@ -1,5 +1,306 @@
 {
   "users": {
+    "12345": {
+      "id": "12345",
+      "name": "mani",
+      "age": 28,
+      "weight": 90,
+      "goal": "Weight Loss",
+      "intensity": "Medium",
+      "originalPlan": {
+        "planTitle": "Mani's 7-Day Metabolic Reset & Fat Loss Blueprint",
+        "planSummary": "A balanced, progressive 7-day routine tailored for sustainable fat loss and muscle preservation at a medium intensity. Combining compound resistance training with targeted metabolic conditioning, this plan optimizes caloric expenditure while safeguarding joints and enhancing metabolic rate.",
+        "targetGoal": "Weight Loss",
+        "intensity": "Medium",
+        "days": [
+          {
+            "day": 1,
+            "dayName": "Day 1 - Monday",
+            "title": "Full-Body Strength & Calorie Torch",
+            "focus": "Full Body (Quads, Chest, Back, Core)",
+            "isRestDay": false,
+            "warmup": "5-8 minutes: Arm circles, leg swings, bodyweight air squats, cat-cow stretch, and 2 minutes of light jumping jacks or brisk march.",
+            "exercises": [
+              {
+                "name": "Goblet Squat (Dumbbell or Kettlebell)",
+                "sets": "3 sets",
+                "reps": "10-12 reps",
+                "notes": "Keep chest elevated and brace core; choose a weight allowing solid form without knee valgus."
+              },
+              {
+                "name": "Dumbbell Flat Bench Press",
+                "sets": "3 sets",
+                "reps": "10-12 reps",
+                "notes": "Retract scapulae and press up without locking elbows violently."
+              },
+              {
+                "name": "Supported Dumbbell Chest-Supported Row",
+                "sets": "3 sets",
+                "reps": "12 reps",
+                "notes": "Pull elbows toward your hips, pausing for 1 second at full contraction."
+              },
+              {
+                "name": "Romanian Deadlift (Dumbbell)",
+                "sets": "3 sets",
+                "reps": "10 reps",
+                "notes": "Hinge at the hips with a neutral spine; stop when hamstrings reach full tension."
+              },
+              {
+                "name": "Forearm Plank",
+                "sets": "3 sets",
+                "reps": "30-45 seconds",
+                "notes": "Squeeze glutes and draw navel toward spine; avoid dipping lower back."
+              }
+            ],
+            "cooldown": "5 minutes: Standing quad stretch, cross-body shoulder stretch, downward dog, and deep diaphragmatic breathing.",
+            "estimatedDurationMinutes": 45
+          },
+          {
+            "day": 2,
+            "dayName": "Day 2 - Tuesday",
+            "title": "Low-Impact Cardio & Core Stability",
+            "focus": "Aerobic Capacity & Trunk Stabilizers",
+            "isRestDay": false,
+            "warmup": "5 minutes: Hip circles, high knees in place, torso twists, and ankle rotations.",
+            "exercises": [
+              {
+                "name": "Incline Treadmill Brisk Walk",
+                "sets": "1 continuous set",
+                "reps": "20 minutes",
+                "notes": "Set incline between 6-8% at 4.5-5.5 km/h; maintain a steady conversational pace."
+              },
+              {
+                "name": "Bird-Dog",
+                "sets": "3 sets",
+                "reps": "10 reps per side",
+                "notes": "Reach opposite arm and leg straight without tilting pelvis; hold top position for 2 seconds."
+              },
+              {
+                "name": "Deadbugs",
+                "sets": "3 sets",
+                "reps": "12 total reps",
+                "notes": "Press lower back firmly into the floor; move extremities slowly under control."
+              },
+              {
+                "name": "Side Plank Hold",
+                "sets": "3 sets",
+                "reps": "20-30 seconds per side",
+                "notes": "Align ankle, hip, and shoulder in one straight line; modify with bent knees if needed."
+              },
+              {
+                "name": "Stationary Bike Aerobic Flush",
+                "sets": "1 set",
+                "reps": "10 minutes",
+                "notes": "Moderate resistance at 70-80 RPM to assist with lactate clearance."
+              }
+            ],
+            "cooldown": "6 minutes: Child's pose, cobra stretch, seated forward bend, and slow calf stretches.",
+            "estimatedDurationMinutes": 45
+          },
+          {
+            "day": 3,
+            "dayName": "Day 3 - Wednesday",
+            "title": "Upper Body Sculpt & Posture Balance",
+            "focus": "Back, Shoulders, Chest, Arms",
+            "isRestDay": false,
+            "warmup": "6 minutes: Band pull-aparts, thoracic spine rotations, shoulder dislocates with light band, wall angels.",
+            "exercises": [
+              {
+                "name": "Lat Pulldown or Assisted Pull-up",
+                "sets": "3 sets",
+                "reps": "10-12 reps",
+                "notes": "Focus on driving elbows straight down and squeezing the lats; avoid leaning back excessively."
+              },
+              {
+                "name": "Seated Dumbbell Overhead Shoulder Press",
+                "sets": "3 sets",
+                "reps": "10-12 reps",
+                "notes": "Keep core tight to protect lower back; press dumbbells in an arc overhead."
+              },
+              {
+                "name": "Push-ups (Incline or Floor)",
+                "sets": "3 sets",
+                "reps": "8-12 reps",
+                "notes": "Maintain a rigid plank; lower chest to about fist height from the ground."
+              },
+              {
+                "name": "Cable or Band Face Pulls",
+                "sets": "3 sets",
+                "reps": "15 reps",
+                "notes": "Pull toward eye level, rotating forearms back to strengthen posterior delts and rotator cuff."
+              },
+              {
+                "name": "Hammer Curls superset with Cable Triceps Pushdowns",
+                "sets": "2-3 sets",
+                "reps": "12 reps each",
+                "notes": "Control tempo (2 seconds down, 1 second up); isolate biceps and triceps without swinging."
+              }
+            ],
+            "cooldown": "5 minutes: Doorway chest stretch, overhead triceps stretch, neck releases, and child's pose.",
+            "estimatedDurationMinutes": 45
+          },
+          {
+            "day": 4,
+            "dayName": "Day 4 - Thursday",
+            "title": "Active Recovery & Mobility Reset",
+            "focus": "Hip Mobility, Spine Decompression, Joint Health",
+            "isRestDay": true,
+            "warmup": "3 minutes: Gentle walking and slow deep belly breathing.",
+            "exercises": [
+              {
+                "name": "Low-Intensity Outdoor Walk",
+                "sets": "1 session",
+                "reps": "30-40 minutes",
+                "notes": "Casual, stress-free stroll at an easy pace to support circulation and NEAT (non-exercise activity thermogenesis)."
+              },
+              {
+                "name": "World's Greatest Stretch",
+                "sets": "2 sets",
+                "reps": "5 reps per side",
+                "notes": "Move fluidly between lunge, thoracic reach, and hamstring extension."
+              },
+              {
+                "name": "Pigeon Pose / Glute Stretch",
+                "sets": "2 sets",
+                "reps": "45-60 seconds per side",
+                "notes": "Sink hips comfortably toward floor; breathe deeply through tight spots."
+              },
+              {
+                "name": "Foam Rolling (Quads, IT Bands, Upper Back)",
+                "sets": "1 set",
+                "reps": "8-10 minutes total",
+                "notes": "Slow passes over tender areas, pausing for 20-30 seconds to release myofascial tension."
+              }
+            ],
+            "cooldown": "5 minutes: Legs-up-the-wall pose accompanied by relaxed slow nasal breathing.",
+            "estimatedDurationMinutes": 45
+          },
+          {
+            "day": 5,
+            "dayName": "Day 5 - Friday",
+            "title": "Lower Body Power & Kinetic Chain Strength",
+            "focus": "Hamstrings, Glutes, Quads, Calves",
+            "isRestDay": false,
+            "warmup": "6 minutes: Glute bridges, bodyweight reverse lunges, standing knee hugs, ankle mobility drills.",
+            "exercises": [
+              {
+                "name": "Dumbbell Romanian Deadlift",
+                "sets": "3 sets",
+                "reps": "10-12 reps",
+                "notes": "Feel deep hamstring stretch; squeeze glutes at the top without hyperextending lumbar spine."
+              },
+              {
+                "name": "Step-Ups on Low Bench / Box",
+                "sets": "3 sets",
+                "reps": "10 reps per leg",
+                "notes": "Drive through the lead heel; minimize pushing off the ground with the trailing foot."
+              },
+              {
+                "name": "Leg Press or Supported Wall Sit",
+                "sets": "3 sets",
+                "reps": "12 reps (or 40s hold)",
+                "notes": "Feet shoulder-width; lower weight with control to protect knee joints."
+              },
+              {
+                "name": "Glute Bridge with Squeeze",
+                "sets": "3 sets",
+                "reps": "15 reps",
+                "notes": "Option to place a light dumbbell on hips; hold top peak contraction for 2 seconds."
+              },
+              {
+                "name": "Standing Calf Raises",
+                "sets": "3 sets",
+                "reps": "15-18 reps",
+                "notes": "Full extension at the top and 2-second stretch at the bottom."
+              }
+            ],
+            "cooldown": "6 minutes: Seated butterfly stretch, kneeling hip flexor stretch, standing calf wall stretch.",
+            "estimatedDurationMinutes": 45
+          },
+          {
+            "day": 6,
+            "dayName": "Day 6 - Saturday",
+            "title": "Metabolic Circuit & Functional Conditioning",
+            "focus": "Cardiovascular Conditioning & Muscular Endurance",
+            "isRestDay": false,
+            "warmup": "6 minutes: Jog in place, lateral lunges, inchworms, high knee taps, shoulder circles.",
+            "exercises": [
+              {
+                "name": "Kettlebell or Dumbbell Swings",
+                "sets": "4 sets",
+                "reps": "12-15 reps",
+                "notes": "Power originates purely from explosive hip hinge, not shoulder lifting."
+              },
+              {
+                "name": "Dumbbell Thrusters (Squat to Overhead Press)",
+                "sets": "3 sets",
+                "reps": "10 reps",
+                "notes": "Use upward squat momentum to smoothly drive weights overhead; moderate load."
+              },
+              {
+                "name": "Renegade Rows (Kneeling or Plank)",
+                "sets": "3 sets",
+                "reps": "8 reps per arm",
+                "notes": "Widen stance to prevent hip rotation while rowing dumbbell to hip."
+              },
+              {
+                "name": "Mountain Climbers",
+                "sets": "3 sets",
+                "reps": "30 seconds",
+                "notes": "Keep hips low and drive knees rhythmically toward chest under control."
+              },
+              {
+                "name": "Rowing Machine or Elliptical Intervals",
+                "sets": "5 rounds",
+                "reps": "45s work / 45s easy recovery",
+                "notes": "Sustain a 7/10 RPE during work intervals, followed by gentle movement recovery."
+              }
+            ],
+            "cooldown": "6 minutes: Downward-facing dog into cobra, hamstring strap stretch, deep calming nasal breathing.",
+            "estimatedDurationMinutes": 50
+          },
+          {
+            "day": 7,
+            "dayName": "Day 7 - Sunday",
+            "title": "Full Rest & Nervous System Restoration",
+            "focus": "Systemic Recovery, Digestion, & Mental Recharge",
+            "isRestDay": true,
+            "warmup": "None required (pure restorative day).",
+            "exercises": [
+              {
+                "name": "Optional Casual Stroll",
+                "sets": "1 session",
+                "reps": "20-30 minutes",
+                "notes": "Unstructured outdoor walking in fresh air for mild mood boost and blood flow; keep effort very light."
+              },
+              {
+                "name": "Static Full-Body Gentle Stretching",
+                "sets": "1 routine",
+                "reps": "10-15 minutes",
+                "notes": "Target tight spots from the week: calves, hips, lower back, and chest."
+              },
+              {
+                "name": "Guided Breathwork or Meditation",
+                "sets": "1 session",
+                "reps": "10 minutes",
+                "notes": "Practice 4-second box breathing to downregulate the sympathetic nervous system."
+              }
+            ],
+            "cooldown": "Hydrate adequately and complete evening wind-down routine.",
+            "estimatedDurationMinutes": 30
+          }
+        ],
+        "nutritionTip": "Target a moderate caloric deficit of ~400-500 kcal below your maintenance (aiming for roughly 2,000-2,100 kcal daily). Prioritize 1.6-1.8g of protein per kg of bodyweight (around 145-160g daily) distributed evenly across 3-4 meals to preserve lean mass and enhance satiety while in a deficit.",
+        "recoveryTip": "At 28 years old and training at medium intensity, prioritize 7.5 to 8.5 hours of uninterrupted sleep; growth hormone peaks during deep stage-3 sleep, directly accelerating fat metabolism and muscle recovery. Drink at least 3-3.5 liters of water daily to support metabolic waste clearance.",
+        "coachingNotes": "Mani, consistency crushes intensity every single time. At 90 kg, our primary aim is sustainable progression without overburdening your joints. Focus on textbook form and steady breathing, listen to your body on recovery days, and celebrate the small weekly non-scale victories!",
+        "generatedAt": "2026-09-27T08:56:43.280Z",
+        "revision": 1
+      },
+      "updatedPlan": null,
+      "feedbackList": [],
+      "createdAt": "2026-09-27T08:56:43.280Z",
+      "updatedAt": "2026-09-27T08:56:43.280Z"
+    },
     "user_test_01": {
       "id": "user_test_01",
       "name": "Alex Test",
@@ -497,6 +798,460 @@
       ],
       "createdAt": "2026-09-27T08:55:17.952Z",
       "updatedAt": "2026-09-27T08:55:36.686Z"
+    },
+    "user_kavita_01": {
+      "id": "user_kavita_01",
+      "name": "Kavita Sharma",
+      "age": 29,
+      "weight": 65,
+      "goal": "Muscle Gain",
+      "intensity": "High",
+      "originalPlan": {
+        "planTitle": "Kavita's Hypertrophy Surge: 7-Day High-Intensity Muscle Build",
+        "planSummary": "This high-intensity program utilizes progressive overload and metabolic stress to stimulate significant muscle fiber hypertrophy. By alternating compound lifting days with active recovery, we optimize protein synthesis and hormonal response for lean muscle gains.",
+        "targetGoal": "Muscle Gain",
+        "intensity": "High",
+        "days": [
+          {
+            "day": 1,
+            "dayName": "Day 1 - Monday",
+            "title": "Lower Body Power",
+            "focus": "Quads, Glutes, and Hamstrings",
+            "isRestDay": false,
+            "warmup": "5 min light jog, 2 min leg swings, 3 min bodyweight squats and lunges",
+            "exercises": [
+              {
+                "name": "Barbell Back Squats",
+                "sets": "4 sets",
+                "reps": "6-8 reps",
+                "notes": "Keep chest up, drive through the heels, maintain neutral spine"
+              },
+              {
+                "name": "Romanian Deadlifts",
+                "sets": "3 sets",
+                "reps": "10-12 reps",
+                "notes": "Focus on the hinge movement, feel the stretch in hamstrings"
+              },
+              {
+                "name": "Leg Press",
+                "sets": "3 sets",
+                "reps": "12-15 reps",
+                "notes": "Do not lock out knees at the top to keep tension on quads"
+              },
+              {
+                "name": "Walking Lunges",
+                "sets": "3 sets",
+                "reps": "20 reps total",
+                "notes": "Keep core braced to maintain balance"
+              }
+            ],
+            "cooldown": "5 min static stretching targeting quads, hamstrings, and glutes",
+            "estimatedDurationMinutes": 60
+          },
+          {
+            "day": 2,
+            "dayName": "Day 2 - Tuesday",
+            "title": "Upper Body Push",
+            "focus": "Chest, Shoulders, and Triceps",
+            "isRestDay": false,
+            "warmup": "5 min arm circles, cat-cow stretches, and resistance band pull-aparts",
+            "exercises": [
+              {
+                "name": "Dumbbell Bench Press",
+                "sets": "4 sets",
+                "reps": "8-10 reps",
+                "notes": "Control the descent for 2 seconds to maximize time under tension"
+              },
+              {
+                "name": "Overhead Press",
+                "sets": "3 sets",
+                "reps": "8-10 reps",
+                "notes": "Avoid arching the lower back; engage glutes for stability"
+              },
+              {
+                "name": "Incline Dumbbell Flyes",
+                "sets": "3 sets",
+                "reps": "12 reps",
+                "notes": "Maintain a slight bend in elbows, focus on chest contraction"
+              },
+              {
+                "name": "Tricep Rope Pushdowns",
+                "sets": "3 sets",
+                "reps": "12-15 reps",
+                "notes": "Keep elbows tucked to your sides"
+              }
+            ],
+            "cooldown": "5 min chest and shoulder static stretching",
+            "estimatedDurationMinutes": 55
+          },
+          {
+            "day": 3,
+            "dayName": "Day 3 - Wednesday",
+            "title": "Active Recovery",
+            "focus": "Mobility and Blood Flow",
+            "isRestDay": true,
+            "warmup": "None",
+            "exercises": [
+              {
+                "name": "Brisk Walking or Light Yoga",
+                "sets": "1 set",
+                "reps": "30-40 min",
+                "notes": "Keep heart rate low; focus on deep breathing and recovery"
+              }
+            ],
+            "cooldown": "Full body foam rolling",
+            "estimatedDurationMinutes": 40
+          },
+          {
+            "day": 4,
+            "dayName": "Day 4 - Thursday",
+            "title": "Upper Body Pull",
+            "focus": "Back, Biceps, and Rear Delts",
+            "isRestDay": false,
+            "warmup": "5 min rowing machine, shoulder rolls, and scapular retractions",
+            "exercises": [
+              {
+                "name": "Bent Over Barbell Rows",
+                "sets": "4 sets",
+                "reps": "8-10 reps",
+                "notes": "Lead with your elbows, squeeze shoulder blades together"
+              },
+              {
+                "name": "Lat Pulldowns",
+                "sets": "3 sets",
+                "reps": "10-12 reps",
+                "notes": "Full range of motion, avoid leaning back excessively"
+              },
+              {
+                "name": "Face Pulls",
+                "sets": "3 sets",
+                "reps": "15 reps",
+                "notes": "Pull towards eyes, rotate hands externally"
+              },
+              {
+                "name": "Dumbbell Bicep Curls",
+                "sets": "3 sets",
+                "reps": "10-12 reps",
+                "notes": "Keep upper arms stationary throughout the movement"
+              }
+            ],
+            "cooldown": "5 min lat and forearm stretches",
+            "estimatedDurationMinutes": 55
+          },
+          {
+            "day": 5,
+            "dayName": "Day 5 - Friday",
+            "title": "Full Body Hypertrophy",
+            "focus": "Compound Movements",
+            "isRestDay": false,
+            "warmup": "5 min dynamic warm-up: jumping jacks, arm swings, high knees",
+            "exercises": [
+              {
+                "name": "Deadlifts",
+                "sets": "3 sets",
+                "reps": "5-6 reps",
+                "notes": "Focus on form, keep the bar close to your shins"
+              },
+              {
+                "name": "Dumbbell Goblet Squats",
+                "sets": "3 sets",
+                "reps": "12 reps",
+                "notes": "Hold weight at chest level, keep torso upright"
+              },
+              {
+                "name": "Pushups",
+                "sets": "3 sets",
+                "reps": "To failure",
+                "notes": "Keep a straight line from head to heels"
+              },
+              {
+                "name": "Plank",
+                "sets": "3 sets",
+                "reps": "60 seconds",
+                "notes": "Squeeze glutes and abs hard"
+              }
+            ],
+            "cooldown": "Full body static stretching",
+            "estimatedDurationMinutes": 50
+          },
+          {
+            "day": 6,
+            "dayName": "Day 6 - Saturday",
+            "title": "Cardio & Core",
+            "focus": "Metabolic Conditioning",
+            "isRestDay": false,
+            "warmup": "5 min light cycling",
+            "exercises": [
+              {
+                "name": "HIIT Intervals (Cycling or Running)",
+                "sets": "10 sets",
+                "reps": "30s sprint/30s walk",
+                "notes": "Push intensity to 90% during sprints"
+              },
+              {
+                "name": "Hanging Leg Raises",
+                "sets": "3 sets",
+                "reps": "12-15 reps",
+                "notes": "Avoid using momentum to swing legs"
+              },
+              {
+                "name": "Russian Twists",
+                "sets": "3 sets",
+                "reps": "20 reps per side",
+                "notes": "Rotate your torso, not just your arms"
+              }
+            ],
+            "cooldown": "5 min light yoga flow",
+            "estimatedDurationMinutes": 45
+          },
+          {
+            "day": 7,
+            "dayName": "Day 7 - Sunday",
+            "title": "Full Rest",
+            "focus": "Recovery",
+            "isRestDay": true,
+            "warmup": "None",
+            "exercises": [],
+            "cooldown": "None",
+            "estimatedDurationMinutes": 0
+          }
+        ],
+        "nutritionTip": "Consume 1.6g to 2g of protein per kg of body weight daily and ensure a slight caloric surplus (200-300 kcal above maintenance) to fuel muscle repair and growth.",
+        "recoveryTip": "At 29, your recovery is efficient but requires consistency; aim for 7-9 hours of sleep and prioritize magnesium-rich foods or supplementation to reduce muscle soreness after high-intensity sessions.",
+        "coachingNotes": "Kavita, you have the drive to succeed! Remember that muscle is built during rest, not just in the gym. If you feel excessive fatigue, listen to your body and adjust intensity. Form over weight always—stay consistent and keep pushing!",
+        "generatedAt": "2026-09-27T09:35:15.510Z",
+        "revision": 1
+      },
+      "updatedPlan": {
+        "planTitle": "Kavita's Hypertrophy Surge: Enhanced Core & Muscle Build",
+        "planSummary": "This revised high-intensity program maintains the focus on hypertrophy while incorporating a dedicated 15-minute core and abdominal circuit on Thursdays and Fridays to build greater midsection stability and definition.",
+        "targetGoal": "Muscle Gain",
+        "intensity": "High",
+        "days": [
+          {
+            "day": 1,
+            "dayName": "Day 1 - Monday",
+            "title": "Lower Body Power",
+            "focus": "Quads, Glutes, and Hamstrings",
+            "isRestDay": false,
+            "warmup": "5 min light jog, 2 min leg swings, 3 min bodyweight squats and lunges",
+            "exercises": [
+              {
+                "name": "Barbell Back Squats",
+                "sets": "4 sets",
+                "reps": "6-8 reps",
+                "notes": "Keep chest up, drive through the heels, maintain neutral spine"
+              },
+              {
+                "name": "Romanian Deadlifts",
+                "sets": "3 sets",
+                "reps": "10-12 reps",
+                "notes": "Focus on the hinge movement, feel the stretch in hamstrings"
+              },
+              {
+                "name": "Leg Press",
+                "sets": "3 sets",
+                "reps": "12-15 reps",
+                "notes": "Do not lock out knees at the top to keep tension on quads"
+              },
+              {
+                "name": "Walking Lunges",
+                "sets": "3 sets",
+                "reps": "20 reps total",
+                "notes": "Keep core braced to maintain balance"
+              }
+            ],
+            "cooldown": "5 min static stretching targeting quads, hamstrings, and glutes",
+            "estimatedDurationMinutes": 60
+          },
+          {
+            "day": 2,
+            "dayName": "Day 2 - Tuesday",
+            "title": "Upper Body Push",
+            "focus": "Chest, Shoulders, and Triceps",
+            "isRestDay": false,
+            "warmup": "5 min arm circles, cat-cow stretches, and resistance band pull-aparts",
+            "exercises": [
+              {
+                "name": "Dumbbell Bench Press",
+                "sets": "4 sets",
+                "reps": "8-10 reps",
+                "notes": "Control the descent for 2 seconds to maximize time under tension"
+              },
+              {
+                "name": "Overhead Press",
+                "sets": "3 sets",
+                "reps": "8-10 reps",
+                "notes": "Avoid arching the lower back; engage glutes for stability"
+              },
+              {
+                "name": "Incline Dumbbell Flyes",
+                "sets": "3 sets",
+                "reps": "12 reps",
+                "notes": "Maintain a slight bend in elbows, focus on chest contraction"
+              },
+              {
+                "name": "Tricep Rope Pushdowns",
+                "sets": "3 sets",
+                "reps": "12-15 reps",
+                "notes": "Keep elbows tucked to your sides"
+              }
+            ],
+            "cooldown": "5 min chest and shoulder static stretching",
+            "estimatedDurationMinutes": 55
+          },
+          {
+            "day": 3,
+            "dayName": "Day 3 - Wednesday",
+            "title": "Active Recovery",
+            "focus": "Mobility and Blood Flow",
+            "isRestDay": true,
+            "warmup": "None",
+            "exercises": [
+              {
+                "name": "Brisk Walking or Light Yoga",
+                "sets": "1 set",
+                "reps": "30-40 min",
+                "notes": "Keep heart rate low; focus on deep breathing and recovery"
+              }
+            ],
+            "cooldown": "Full body foam rolling",
+            "estimatedDurationMinutes": 40
+          },
+          {
+            "day": 4,
+            "dayName": "Day 4 - Thursday",
+            "title": "Upper Body Pull & Core",
+            "focus": "Back, Biceps, Rear Delts, and Abs",
+            "isRestDay": false,
+            "warmup": "5 min rowing machine, shoulder rolls, and scapular retractions",
+            "exercises": [
+              {
+                "name": "Bent Over Barbell Rows",
+                "sets": "4 sets",
+                "reps": "8-10 reps",
+                "notes": "Lead with your elbows, squeeze shoulder blades together"
+              },
+              {
+                "name": "Lat Pulldowns",
+                "sets": "3 sets",
+                "reps": "10-12 reps",
+                "notes": "Full range of motion, avoid leaning back excessively"
+              },
+              {
+                "name": "Face Pulls",
+                "sets": "3 sets",
+                "reps": "15 reps",
+                "notes": "Pull towards eyes, rotate hands externally"
+              },
+              {
+                "name": "Dumbbell Bicep Curls",
+                "sets": "3 sets",
+                "reps": "10-12 reps",
+                "notes": "Keep upper arms stationary throughout the movement"
+              },
+              {
+                "name": "15-Min Core Circuit: Hanging Leg Raises, Cable Crunches, and Plank",
+                "sets": "3 rounds",
+                "reps": "As many reps as possible in 15 mins",
+                "notes": "Focus on slow, controlled contractions. No rest between exercises."
+              }
+            ],
+            "cooldown": "5 min lat and forearm stretches",
+            "estimatedDurationMinutes": 70
+          },
+          {
+            "day": 5,
+            "dayName": "Day 5 - Friday",
+            "title": "Full Body Hypertrophy & Core",
+            "focus": "Compound Movements and Abs",
+            "isRestDay": false,
+            "warmup": "5 min dynamic warm-up: jumping jacks, arm swings, high knees",
+            "exercises": [
+              {
+                "name": "Deadlifts",
+                "sets": "3 sets",
+                "reps": "5-6 reps",
+                "notes": "Focus on form, keep the bar close to your shins"
+              },
+              {
+                "name": "Dumbbell Goblet Squats",
+                "sets": "3 sets",
+                "reps": "12 reps",
+                "notes": "Hold weight at chest level, keep torso upright"
+              },
+              {
+                "name": "Pushups",
+                "sets": "3 sets",
+                "reps": "To failure",
+                "notes": "Keep a straight line from head to heels"
+              },
+              {
+                "name": "15-Min Core Circuit: Bicycle Crunches, Mountain Climbers, and Leg Raises",
+                "sets": "3 rounds",
+                "reps": "As many reps as possible in 15 mins",
+                "notes": "Constant tension, focus on breathing and core engagement."
+              }
+            ],
+            "cooldown": "Full body static stretching",
+            "estimatedDurationMinutes": 65
+          },
+          {
+            "day": 6,
+            "dayName": "Day 6 - Saturday",
+            "title": "Cardio & Core",
+            "focus": "Metabolic Conditioning",
+            "isRestDay": false,
+            "warmup": "5 min light cycling",
+            "exercises": [
+              {
+                "name": "HIIT Intervals (Cycling or Running)",
+                "sets": "10 sets",
+                "reps": "30s sprint/30s walk",
+                "notes": "Push intensity to 90% during sprints"
+              },
+              {
+                "name": "Hanging Leg Raises",
+                "sets": "3 sets",
+                "reps": "12-15 reps",
+                "notes": "Avoid using momentum to swing legs"
+              },
+              {
+                "name": "Russian Twists",
+                "sets": "3 sets",
+                "reps": "20 reps per side",
+                "notes": "Rotate your torso, not just your arms"
+              }
+            ],
+            "cooldown": "5 min light yoga flow",
+            "estimatedDurationMinutes": 45
+          },
+          {
+            "day": 7,
+            "dayName": "Day 7 - Sunday",
+            "title": "Full Rest",
+            "focus": "Recovery",
+            "isRestDay": true,
+            "warmup": "None",
+            "exercises": [],
+            "cooldown": "None",
+            "estimatedDurationMinutes": 0
+          }
+        ],
+        "nutritionTip": "With the added training volume, ensure you are hitting your caloric surplus targets consistently. Consider a post-workout carb-rich snack immediately following the Thursday and Friday core sessions to aid recovery.",
+        "recoveryTip": "Increased core work can lead to delayed onset muscle soreness (DOMS) in the abs; prioritize hydration and electrolytes to maintain muscle function.",
+        "coachingNotes": "Kavita, I have integrated your requested core work into the Thursday and Friday sessions. By adding this, you'll improve your spinal stability for heavier lifts. Remember to maintain high intensity in the core circuits to maximize metabolic stress!",
+        "generatedAt": "2026-09-27T09:35:30.102Z",
+        "revision": 2
+      },
+      "feedbackList": [
+        {
+          "feedback": "I want 15 mins of core and abdominal training added to Thursday and Friday",
+          "date": "2026-09-27T09:35:30.102Z"
+        }
+      ],
+      "createdAt": "2026-09-27T09:35:15.511Z",
+      "updatedAt": "2026-09-27T09:35:30.102Z"
     }
   }
 }
